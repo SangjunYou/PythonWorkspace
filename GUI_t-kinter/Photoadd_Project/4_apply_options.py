@@ -101,9 +101,6 @@ def merge_image():
 
 # 시작
 def start():
-    # print("가로넓이 : ", cmb_width.get())
-    # print("간격 : ", cmb_spacec.get())
-    # print("포맷 : ", cmb_format.get())
 
     if list_file.size() == 0:
         masbox.showwarning("경고", "이미지 파일을 추가하세요")
