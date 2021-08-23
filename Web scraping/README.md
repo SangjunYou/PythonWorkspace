@@ -1,4 +1,5 @@
 # 파이썬 웹스크래핑 공부
+
 ## Xpath
 > html 문서에 있는 특정 element 를 지칭하는 주소(경로)이다
 ## requests
@@ -23,13 +24,14 @@ clear()                         -> 내용지우기
 ```
 ## BeautifulSoup
 ```
-find                      -> 조건에 맞는 첫번째 element
-find_all                  -> 조건에 맞는 모든 element 리스트로
-find_next_sibling(s)      -> 다음 형제 찾기
-find_previous_sibling(s)  -> 이전 형제 찾기
-
-soup["href"]              -> 속성
-soup.get_text()           -> 텍스트
+find                       -> 조건에 맞는 첫번째 element
+find_all                   -> 조건에 맞는 모든 element 리스트로
+find_next_sibling(s)       -> 다음 형제 찾기
+find_previous_sibling(s)   -> 이전 형제 찾기
+```
+```
+soup["href"]               -> 속성
+soup.get_text()            -> 텍스트
 ```
 ## CSV
 ```
