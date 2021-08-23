@@ -17,7 +17,8 @@ file_element(s)_by_id           -> id로 찾기
 file_element(s)_by_class_name   -> class name 으로 찾기
 file_element(s)_by_link_text    -> 링크 text 로 찾기
 file_element(s)_by_xpath        -> xpath로 찾기
-  
+```
+```
 click()                         -> 클릭
 send_key()                      -> 글자 입력
 clear()                         -> 내용지우기
